@@ -1,9 +1,7 @@
-﻿namespace App.August._2022;
-
-public partial class AppShell : Shell
+﻿namespace ShareInvest
 {
-	public AppShell()
-	{
-		InitializeComponent();
-	}
+    public partial class AppShell : Shell
+    {
+        public AppShell() => InitializeComponent();
+    }
 }
