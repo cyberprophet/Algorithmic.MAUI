@@ -32,7 +32,7 @@
 		<Authors>cyberprophet</Authors>
 		<Company>ShareInvest</Company>
 		<Version>0.8.15.2022</Version>
-		<Product>Algorithmic Trading</Product>
+		<Product>Algorithmic-Trading</Product>
 		<Copyright>Copyright ⓒ 2022, ShareInvest Corp.</Copyright>
 	</PropertyGroup>
 
@@ -56,6 +56,20 @@
 
 		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="CommunityToolkit.Mvvm" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\Algorithmic.NET6\Models.March.2022\Models.March.2022.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="View\MainPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.August.2022", "App.August.2022\App.August.2022.csproj", "{40C8DAA4-098E-4FB4-96E7-621C8AA21CCA}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models.March.2022", "..\Algorithmic.NET6\Models.March.2022\Models.March.2022.csproj", "{7569DB68-4739-4226-ACDA-857FE8589A4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{40C8DAA4-098E-4FB4-96E7-621C8AA21CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40C8DAA4-098E-4FB4-96E7-621C8AA21CCA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{40C8DAA4-098E-4FB4-96E7-621C8AA21CCA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7569DB68-4739-4226-ACDA-857FE8589A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7569DB68-4739-4226-ACDA-857FE8589A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7569DB68-4739-4226-ACDA-857FE8589A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7569DB68-4739-4226-ACDA-857FE8589A4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
